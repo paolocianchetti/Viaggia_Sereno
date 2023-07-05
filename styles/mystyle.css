@@ -1,0 +1,91 @@
+body {
+	font-family: 'Lato', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, .nav, .navbar {
+	font-family: 'Poiret One', cursive;
+}
+
+.navbar-mystyle {
+	background-color: rgb(80,71,71);
+	border-color: black;
+	border-radius: 0;
+	margin-bottom: 0px;
+}
+
+.navbar-mystyle .navbar-brand img {
+	border-radius: 50%;
+}
+
+.navbar-mystyle .nav-item > .nav-link {
+	color: white;
+}
+
+.navbar-mystyle .nav-item > .nav-link:hover {
+	background-color: rgb(80,71,71);
+	color: gray;
+}
+
+.navbar-mystyle > .navbar-toggler {
+	color: white;
+}
+
+.navbar-mystyle>.navbar-toggler {
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-mystyle .navbar-toggler-icon {
+	color: white;
+	background-image: url('../images/hamburgericon.png');
+}
+
+.mystyle-section {
+	min-height: 500px;
+}
+
+.mystyle-h3 {
+	margin: 0;
+	padding-top: 3rem;
+}
+
+.bg-mystyle-dark {
+	background-color: rgb(80,71,71);
+	color: white;
+}
+
+.bg-mystyle-light {
+	color: black;
+	background-color: white;
+}
+
+.bg-mystyle-welcome {
+	background-image: url('../images/skyline.png');
+	background-size: 54rem;
+	color: rgb(80,71,71);
+}
+
+.jumbotron {
+	padding: 1rem;
+}
+
+.card {
+	height: 96%;
+}
+
+#summer .card {
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+.card-img-top {
+	height: 12.5rem;
+}
+
+#giorno img {
+	height: 24rem;
+	border-radius: 20px;
+}
+
+#lastminute img {
+	height: 100%;
+}
